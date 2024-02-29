@@ -15,7 +15,6 @@ public class Main {
 //
 //        test(new Figure(new Point(-5,-5)));
 //        test(new Figure(new Point(0,0)));
-
     }
 
     public static void test(Figure figure) {
