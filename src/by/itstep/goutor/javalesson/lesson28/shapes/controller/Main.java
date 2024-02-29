@@ -3,6 +3,7 @@ package by.itstep.goutor.javalesson.lesson28.shapes.controller;
 import by.itstep.goutor.javalesson.lesson28.shapes.model.data.Circle;
 import by.itstep.goutor.javalesson.lesson28.shapes.model.data.Figure;
 import by.itstep.goutor.javalesson.lesson28.shapes.model.data.Rectangle;
+import by.itstep.goutor.javalesson.lesson28.shapes.model.logic.FigureManager;
 
 public class Main {
     public static void main(String[] args) {
@@ -16,8 +17,7 @@ public class Main {
 
     public static void test(Figure figure) {
 
-        System.out.println(figure.toString());
-
+        System.out.println(FigureManager.checkQuarter(figure));
     }
 
 
