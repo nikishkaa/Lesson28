@@ -1,6 +1,6 @@
 package by.itstep.goutor.javalesson.lesson28.shapes.model.data;
 
-public class Figure {
+public abstract class Figure {
 
     protected Point point;
 
@@ -23,6 +23,11 @@ public class Figure {
     public void setPoint(Point point) {
         this.point = point;
     }
+
+
+
+    public abstract double calcPerimeter();
+    public abstract double calcSquare();
 
 
     @Override

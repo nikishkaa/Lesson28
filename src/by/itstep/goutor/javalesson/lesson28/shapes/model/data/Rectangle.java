@@ -39,6 +39,16 @@ public class Rectangle extends Figure {
         this.b = b;
     }
 
+    public double calcPerimeter() {
+        return (a + b) * 2;
+    }
+
+
+    public double calcSquare() {
+        return a * b;
+    }
+
+
     @Override
     public String toString() {
         return "Rectangle {" +

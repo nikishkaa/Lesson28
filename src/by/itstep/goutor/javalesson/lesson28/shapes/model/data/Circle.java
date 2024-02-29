@@ -1,5 +1,7 @@
 package by.itstep.goutor.javalesson.lesson28.shapes.model.data;
 
+import by.itstep.goutor.javalesson.lesson28.shapes.controller.Main;
+
 public class Circle extends Figure {
     private double radius;
 
@@ -24,6 +26,13 @@ public class Circle extends Figure {
     public void setRadius(double radius) {
         this.radius = radius;
     }
+
+    public  double calcPerimeter(){
+        return 2 * Math.PI * radius;
+    };
+    public double calcSquare(){
+        return  Math.PI * radius * radius;
+    };
 
     @Override
     public String toString() {

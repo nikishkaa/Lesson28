@@ -11,10 +11,10 @@ public class Main {
 
         test(new Rectangle(2, 5, 1, 1));
         test(new Circle(5, 3, 3));
-        test(new Figure(5, 5));
-
-        test(new Figure(new Point(-5,-5)));
-        test(new Figure(new Point(0,0)));
+//        test(new Figure(5, 5));
+//
+//        test(new Figure(new Point(-5,-5)));
+//        test(new Figure(new Point(0,0)));
 
     }
 
