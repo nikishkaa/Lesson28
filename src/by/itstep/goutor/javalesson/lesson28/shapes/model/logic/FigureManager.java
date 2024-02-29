@@ -11,12 +11,12 @@ public class FigureManager {
         int y = figure.getPoint().getY();
 
         if (x > 0 && y > 0) {
-quarter = 1;
+            quarter = 1;
         } else if (y > 0 && x < 0) {
             quarter = 2;
         } else if (x < 0 && y < 0) {
             quarter = 3;
-        } else if (x>0 && y< 0) {
+        } else if (x > 0 && y < 0) {
             quarter = 4;
         }
 

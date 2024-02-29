@@ -13,7 +13,7 @@ public class Figure {
     }
 
     public Figure(int x, int y) {
-        this.point = new Point(x , y);
+        this.point = new Point(x, y);
     }
 
     public Point getPoint() {
@@ -25,14 +25,9 @@ public class Figure {
     }
 
 
-
-
-
-
     @Override
     public String toString() {
         return "Figure{" +
-                "point=" + point +
-                '}';
+                "point = (" + point + ") }";
     }
 }
