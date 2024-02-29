@@ -1,6 +1,5 @@
 package by.itstep.goutor.javalesson.lesson28.shapes.model.data;
 
-import by.itstep.goutor.javalesson.lesson28.shapes.controller.Main;
 
 public class Circle extends Figure {
     private double radius;
